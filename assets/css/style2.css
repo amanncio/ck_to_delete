@@ -1,0 +1,74 @@
+/* Header */
+header {
+    background: url('/assets/images/img-ck.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Seções */
+#sobre img, #cursos img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#form-inscricao {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+}
+
+/* Formulário */
+form .form-control {
+    border-radius: 20px;
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#form-inscricao input {
+    border-radius: 20px;
+}
+
+#form-inscricao button {
+    border-radius: 20px;
+}
+
+.card-body {
+    height: 150px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.slick-prev,
+.slick-next {
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 10px; /* Distância da borda esquerda */
+}
+
+.slick-next {
+    right: 10px; /* Distância da borda direita */
+}
